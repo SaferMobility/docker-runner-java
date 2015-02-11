@@ -4,7 +4,7 @@ MAINTAINER sameer@damagehead.com
 RUN apt-get update && \
     apt-get install -y ca-certificates-java java-common java-wrappers \
     openjdk-7-jdk openjdk-7-jre maven \
-    git && \
+    git lftp && \
     rm -rf /var/lib/apt/lists/* # 20140918
 
 ADD assets/ /app/
