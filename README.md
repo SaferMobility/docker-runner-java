@@ -1,3 +1,5 @@
+[![Build Status](http://dockeri.co/image/safermobility/docker-runner-java)](https://registry.hub.docker.com/u/safermobility/docker-runner-java/)
+
 # Introduction
 
 A CI runner for Java.
